@@ -1074,3 +1074,64 @@ Este domínio foca nas próprias aplicações e nas metodologias usadas em sua c
     * **Explicação:** Isso se refere à criação de Interfaces de Programação de Aplicações (APIs) que definem como diferentes componentes de software ou sistemas interagem e compartilham informações. APIs bem projetadas são críticas para modularidade, integração e interoperabilidade dentro de ecossistemas de software complexos.
 * **Empregar as melhores práticas de DevOps.**
     * **Explicação:** Isso significa a adoção de princípios e práticas da cultura DevOps, como integração contínua, entrega contínua (CI/CD), automação, monitoramento e colaboração, para otimizar o ciclo de vida do desenvolvimento de software e melhorar a eficiência operacional e a confiabilidade.
+
+
+# Software Delivery Stages: Platform, DevOps, and Deployment
+
+This document outlines key activities across three critical stages of the software delivery lifecycle: Developer Platform, DevOps, and Deployment. These stages highlight the progression from initial development to final user access.
+
+---
+
+## English Version
+
+### 1. Developer Platform
+This stage focuses on providing developers with the necessary environment and tools to perform their coding tasks effectively.
+
+* **Developing the tools that the developers need.**
+    * **Explanation:** This involves creating, selecting, and maintaining the integrated development environments (IDEs), SDKs, frameworks, libraries, and other utilities that empower developers to write, test, and debug code efficiently. A well-equipped developer platform enhances productivity and code quality.
+
+### 2. DevOps
+This stage embodies the principles and practices that automate and streamline the software development and operations processes.
+
+* **Automating software build, test, and deploy activities.**
+    * **Explanation:** DevOps emphasizes the automation of the entire software delivery pipeline, from compiling code (build) and running various tests (unit, integration, performance) to packaging and releasing the software to different environments (deploy). This automation reduces manual errors and speeds up delivery.
+* **Continuously integrating the code changes with the version control software.**
+    * **Explanation:** Continuous Integration (CI) is a core DevOps practice where developers frequently merge their code changes into a central repository. This ensures that the codebase is always in a consistent and working state, quickly catching and addressing integration issues.
+
+### 3. Deployment
+This final stage is about making the developed and tested software available for end-users.
+
+* **Arranging the software to start serving the users.**
+    * **Explanation:** This involves the process of packaging, configuring, and releasing the software to the production environment where it becomes accessible and functional for the target audience. This includes tasks like setting up servers, databases, network configurations, and ensuring scalability and reliability for live operations.
+
+---
+
+## Versão em Português
+
+# Etapas da Entrega de Software: Plataforma, DevOps e Implantação
+
+Este documento descreve as atividades chave em três etapas críticas do ciclo de vida da entrega de software: Plataforma do Desenvolvedor, DevOps e Implantação. Essas etapas destacam a progressão do desenvolvimento inicial ao acesso final do usuário.
+
+---
+
+## Versão em Português
+
+### 1. Plataforma do Desenvolvedor
+Esta etapa foca em fornecer aos desenvolvedores o ambiente e as ferramentas necessárias para realizar suas tarefas de codificação de forma eficaz.
+
+* **Desenvolver as ferramentas que os desenvolvedores precisam.**
+    * **Explicação:** Isso envolve a criação, seleção e manutenção de ambientes de desenvolvimento integrados (IDEs), SDKs, frameworks, bibliotecas e outras utilidades que capacitam os desenvolvedores a escrever, testar e depurar código eficientemente. Uma plataforma de desenvolvedor bem equipada aumenta a produtividade e a qualidade do código.
+
+### 2. DevOps
+Esta etapa incorpora os princípios e práticas que automatizam e otimizam os processos de desenvolvimento e operações de software.
+
+* **Automatizar atividades de construção, teste e implantação de software.**
+    * **Explicação:** DevOps enfatiza a automação de todo o pipeline de entrega de software, desde a compilação do código (build) e a execução de vários testes (unidade, integração, desempenho) até o empacotamento e o lançamento do software em diferentes ambientes (implantação). Essa automação reduz erros manuais e acelera a entrega.
+* **Integrar continuamente as mudanças de código com o software de controle de versão.**
+    * **Explicação:** A Integração Contínua (CI) é uma prática central do DevOps onde os desenvolvedores mesclam frequentemente suas mudanças de código em um repositório central. Isso garante que a base de código esteja sempre em um estado consistente e funcional, identificando e corrigindo rapidamente problemas de integração.
+
+### 3. Implantação
+Esta etapa final consiste em tornar o software desenvolvido e testado disponível para os usuários finais.
+
+* **Organizar o software para começar a atender os usuários.**
+    * **Explicação:** Isso envolve o processo de empacotamento, configuração e lançamento do software para o ambiente de produção, onde ele se torna acessível e funcional para o público-alvo. Isso inclui tarefas como configurar servidores, bancos de dados, configurações de rede e garantir a escalabilidade e confiabilidade para operações em tempo real.

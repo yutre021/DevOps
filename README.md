@@ -231,3 +231,44 @@ Essa abordagem iterativa, impulsionada pelos princípios DevOps, garante que o d
 
 ![Cycle, image from DataCamp](src/dev_fig.png)
 
+# Types of Engineering Disciplines (Tipos de Disciplinas de Engenharia)
+
+This document summarizes different engineering disciplines based on the examples provided, showcasing typical tasks associated with each area.
+
+---
+
+## English Version
+
+### 1. Infra Engineering (Engenharia de Infraestrutura)
+Focuses on the underlying systems and environments that support applications and services.
+* **Cloud Solutions:** Setting up and configuring cloud infrastructure (e.g., AWS, Azure, GCP).
+* **Access Management:** Establishing and managing access policies to ensure secure database access only by authorized personnel.
+
+### 2. Product Engineering (Engenharia de Produto)
+Concentrates on developing user-facing features and functionalities that constitute a product.
+* **Adding Website Functionality:** Implementing features that allow users to directly book hotels via a website.
+* **Third-Party Integrations:** Integrating external services (e.g., a car rental agency's webpage) to enable new functionalities within the product.
+
+### 3. Data & ML Engineering (Engenharia de Dados e Machine Learning)
+Deals with managing data pipelines, developing machine learning models, and building data-driven intelligent systems.
+* **Intelligent Suggestion Systems:** Creating systems that provide personalized suggestions to customers based on their past behavior.
+* **Real-time Data Capture:** Capturing and recording user data from a website into a database in real-time for analysis and processing.
+
+---
+
+## Versão em Português
+
+### 1. Infra Engineering (Engenharia de Infraestrutura)
+Foca nos sistemas e ambientes subjacentes que dão suporte a aplicações e serviços.
+* **Soluções em Nuvem:** Configurar e gerenciar infraestruturas em nuvem (ex: AWS, Azure, GCP).
+* **Gerenciamento de Acesso:** Estabelecer e gerenciar políticas de acesso para garantir que apenas pessoal autorizado possa acessar os bancos de dados.
+
+### 2. Product Engineering (Engenharia de Produto)
+Concentra-se no desenvolvimento de funcionalidades e recursos voltados para o usuário que compõem um produto.
+* **Adicionar Funcionalidades ao Site:** Implementar recursos que permitem aos usuários reservar hotéis diretamente através de um site.
+* **Integrações com Terceiros:** Integrar serviços externos (ex: a página de uma agência de aluguel de carros) para habilitar novas funcionalidades dentro do produto.
+
+### 3. Data & ML Engineering (Engenharia de Dados e Machine Learning)
+Lida com o gerenciamento de pipelines de dados, desenvolvimento de modelos de machine learning e construção de sistemas inteligentes baseados em dados.
+* **Sistemas de Sugestão Inteligentes:** Criar sistemas que fornecem sugestões personalizadas aos clientes com base em seu comportamento passado.
+* **Captura de Dados em Tempo Real:** Capturar e registrar dados de usuários de um site em um banco de dados em tempo real para análise e processamento.

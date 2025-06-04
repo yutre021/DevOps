@@ -2093,3 +2093,60 @@ Este elemento garante que nenhuma parte crítica dos dados esteja faltando, forn
 
 * **Garantir a abrangência dos dados para provar que nenhuma parte dos dados foi perdida.**
     * **Explicação:** A completude dos dados refere-se ao grau em que todos os dados necessários estão presentes. Valores ou registros ausentes podem levar a análises tendenciosas, relatórios incompletos ou falhas em processos que dependem do conjunto de dados completo. Garantir a completude significa que todos os pontos de dados esperados para um determinado registro ou conjunto de dados estão preenchidos.
+
+
+# Software Quality and Monitoring: Testing and Observability (Qualidade e Monitoramento de Software: Teste e Observabilidade)
+
+This document outlines key practices in ensuring software quality and understanding its behavior in production: Testing and Observability. These two disciplines are complementary, focusing on verifying functionality before release and monitoring performance and interactions in live environments.
+
+---
+
+## English Version
+
+### 1. Testing
+
+Testing is a fundamental practice in software development aimed at verifying that the software functions as expected and meets its requirements. It primarily involves controlled environments to identify bugs and validate behavior.
+
+* **Sending mock data to the software and checking how it behaves.**
+    * **Explanation:** This activity involves using simulated or dummy data (mock data) to rigorously evaluate specific functionalities of the software. It helps developers and quality assurance teams confirm that individual components or the system as a whole produces the correct outputs for given inputs, ensuring basic functional correctness.
+* **Sending an unexpected amount of data to check how it behaves under pressure.**
+    * **Explanation:** This refers to performance or load testing. By subjecting the software to high volumes of data, concurrent users, or other stressful conditions (an "unexpected amount of data"), teams can assess its stability, scalability, and responsiveness under pressure. This helps identify bottlenecks and potential points of failure before production.
+
+### 2. Observability
+
+Observability is about understanding the internal states of a system by examining its external outputs. It's crucial for diagnosing issues, understanding performance, and ensuring a smooth user experience in live production environments.
+
+* **Monitoring how inner components of software behave when it interacts with the users.**
+    * **Explanation:** This involves collecting and analyzing various metrics, logs, and traces from within the running software system. The goal is to gain deep insights into how different internal modules, services, or functions perform and interact as real users engage with the application, helping to quickly identify root causes of problems.
+* **Checking how software interacts with users from different geolocations.**
+    * **Explanation:** This aspect of observability focuses on understanding the user experience and system performance from a global perspective. By monitoring interactions from diverse geographical locations, teams can identify latency issues, regional performance degradation, or content delivery problems, ensuring a consistent experience for all users worldwide.
+
+---
+
+## Versão em Português
+
+# Qualidade e Monitoramento de Software: Teste e Observabilidade
+
+Este documento descreve as práticas chave para garantir a qualidade do software e compreender seu comportamento em produção: Teste e Observabilidade. Essas duas disciplinas são complementares, focando na verificação da funcionalidade antes do lançamento e no monitoramento do desempenho e interações em ambientes ao vivo.
+
+---
+
+## Versão em Português
+
+### 1. Teste
+
+Teste é uma prática fundamental no desenvolvimento de software que visa verificar se o software funciona conforme o esperado e atende aos seus requisitos. Ele envolve principalmente ambientes controlados para identificar bugs e validar o comportamento.
+
+* **Enviar dados simulados (mock data) para o software e verificar como ele se comporta.**
+    * **Explicação:** Esta atividade envolve o uso de dados simulados ou fictícios (mock data) para avaliar rigorosamente funcionalidades específicas do software. Ajuda desenvolvedores e equipes de garantia de qualidade a confirmar se componentes individuais ou o sistema como um todo produzem as saídas corretas para as entradas dadas, garantindo a correção funcional básica.
+* **Enviar uma quantidade inesperada de dados para verificar como ele se comporta sob pressão.**
+    * **Explicação:** Isso se refere a testes de desempenho ou carga. Ao submeter o software a altos volumes de dados, usuários concorrentes ou outras condições de estresse (uma "quantidade inesperada de dados"), as equipes podem avaliar sua estabilidade, escalabilidade e responsividade sob pressão. Isso ajuda a identificar gargalos e potenciais pontos de falha antes da produção.
+
+### 2. Observabilidade
+
+Observabilidade é sobre compreender os estados internos de um sistema examinando suas saídas externas. É crucial para diagnosticar problemas, compreender o desempenho e garantir uma experiência de usuário tranquila em ambientes de produção ao vivo.
+
+* **Monitorar como os componentes internos do software se comportam quando interagem com os usuários.**
+    * **Explicação:** Isso envolve coletar e analisar várias métricas, logs e rastreamentos de dentro do sistema de software em execução. O objetivo é obter insights profundos sobre como diferentes módulos internos, serviços ou funções se comportam e interagem à medida que usuários reais utilizam a aplicação, ajudando a identificar rapidamente as causas-raiz dos problemas.
+* **Verificar como o software interage com usuários de diferentes geolocalizações.**
+    * **Explicação:** Este aspecto da observabilidade foca em compreender a experiência do usuário e o desempenho do sistema a partir de uma perspectiva global. Ao monitorar interações de diversas localizações geográficas, as equipes podem identificar problemas de latência, degradação de desempenho regional ou problemas de entrega de conteúdo, garantindo uma experiência consistente para todos os usuários globalmente.

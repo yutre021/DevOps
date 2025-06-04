@@ -543,7 +543,7 @@ Este documento descreve os passos sequenciais tipicamente envolvidos no desenvol
   
 # Product Development Phases: Design, Development, and Testing
 
-This document outlines key activities within three fundamental phases of product development: Design, Development, and Testing, as depicted in the provided image.
+This document outlines key activities within three fundamental phases of product development: Design, Development, and Testing.
 
 ---
 
@@ -572,7 +572,7 @@ This crucial phase ensures that the developed product functions correctly and me
 
 # Fases do Desenvolvimento de Produto: Design, Desenvolvimento e Teste
 
-Este documento descreve as atividades chave dentro de três fases fundamentais do desenvolvimento de produto: Design, Desenvolvimento e Teste, conforme retratado na imagem fornecida.
+Este documento descreve as atividades chave dentro de três fases fundamentais do desenvolvimento de produto: Design, Desenvolvimento e Teste.
 
 ---
 

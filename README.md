@@ -1324,3 +1324,101 @@ Esses conceitos são centrais para a filosofia DevOps, visando preencher a lacun
     * **Explicação:** No contexto DevOps, a experimentação envolve testar continuamente novas ideias, funcionalidades ou mudanças operacionais em ambientes controlados para coletar dados e aprender rapidamente. Isso promove a inovação, valida suposições e permite que as equipes tomem decisões baseadas em dados sobre a direção do produto e a eficiência operacional.
 * **Produto Mínimo Viável (MVP)**
     * **Explicação:** Um MVP é a versão mais simples de um novo produto ou funcionalidade que entrega valor suficiente para satisfazer os primeiros clientes e permite que uma equipe obtenha aprendizado validado sobre o produto com o mínimo esforço. É uma estratégia para testar hipóteses precocemente e construir iterativamente sobre uma ideia central com base no feedback real do usuário.
+
+
+
+# Software Architectures: Microservices vs. Monolithic
+
+This document provides an overview of Microservices Architecture, detailing its core characteristics and contrasting it with Monolithic Architecture to highlight their respective use cases and properties.
+
+---
+
+## English Version
+
+### 1. Microservices Architecture
+
+Microservices represent a modern approach to software architecture where a large application is built as a suite of small, independent services.
+
+* **Microservices are small-scale software programs.**
+    * **Explanation:** Instead of a single, large application, a microservices system consists of numerous smaller, focused applications. This promotes manageability and allows teams to work on specific parts of the system independently.
+* **Microservices deployed separately.**
+    * **Explanation:** Each microservice has its own deployment lifecycle. This autonomy means that updates or scaling of one service can happen without affecting others, significantly improving deployment agility and reducing risks.
+* **Each microservice takes care of a different functionality.**
+    * **Explanation:** Services are designed around specific business capabilities. For example, in an e-commerce system, there might be separate microservices for user authentication, product catalog, order processing, and payment.
+* **Each microservice has its own data and logic.**
+    * **Explanation:** A fundamental principle of microservices is that each service encapsulates its own business logic and data. This ensures high cohesion within a service and loose coupling between services.
+* **They store the data in private databases.**
+    * **Explanation:** Reflecting the "own data" principle, each microservice typically manages its data within its own dedicated database, preventing direct database dependencies between services and enabling technology freedom.
+* **Communication via APIs:** To interact, microservices communicate with each other primarily through Application Programming Interfaces (APIs), enabling secure and standardized data exchange between independent services.
+
+### 2. Monolithic Architecture vs. Microservices Architecture
+
+These two architectural styles offer distinct advantages and disadvantages, making them suitable for different types of applications and organizational contexts.
+
+#### Monolithic Architecture
+
+* **Limited number of databases.**
+    * **Explanation:** In a monolithic application, all functionalities often share a single, centralized database or a very small number of databases. This simplifies data management initially but can lead to scalability and contention issues as the application grows.
+* **All application uses the same databases.**
+    * **Explanation:** Data access is typically direct across the entire application, as all components reside within the same codebase and often share the same data store.
+* **Could be a viable option for small-scale applications.**
+    * **Explanation:** For simpler applications with stable requirements and smaller teams, a monolithic architecture can be quicker to develop and deploy, and easier to manage due to its single codebase.
+
+#### Microservices Architecture
+
+* **A database for each microservice.**
+    * **Explanation:** This decentralization of data allows each service to optimize its data storage technology and schema for its specific needs, contributing to better performance and independent evolution.
+* **Microservices must do API calls to reach another service's database.**
+    * **Explanation:** Services do not directly access another service's database. If a microservice needs data owned by another service, it must request that data through the owning service's exposed API. This maintains encapsulation and independence.
+* **Microservices are effective in large organizations and complex products.**
+    * **Explanation:** Their modularity, independent deployability, and scalability make them ideal for large-scale applications with evolving requirements, distributed teams, and high traffic, allowing different teams to work on separate services concurrently.
+
+---
+
+## Versão em Português
+
+# Arquiteturas de Software: Microsserviços vs. Monolítica
+
+Este documento fornece uma visão geral da Arquitetura de Microsserviços, detalhando suas características centrais e comparando-a com a Arquitetura Monolítica para destacar seus respectivos casos de uso e propriedades.
+
+---
+
+## Versão em Português
+
+### 1. Arquitetura de Microsserviços
+
+Microsserviços representam uma abordagem moderna para a arquitetura de software, onde uma grande aplicação é construída como um conjunto de serviços pequenos e independentes.
+
+* **Microsserviços são programas de software de pequena escala.**
+    * **Explicação:** Em vez de uma única aplicação grande, um sistema de microsserviços consiste em inúmeras aplicações menores e focadas. Isso promove a gerenciabilidade e permite que as equipes trabalhem em partes específicas do sistema de forma independente.
+* **Microsserviços implantados separadamente.**
+    * **Explicação:** Cada microsserviço possui seu próprio ciclo de implantação. Essa autonomia significa que atualizações ou escalabilidade de um serviço podem ocorrer sem afetar outros, melhorando significativamente a agilidade da implantação e reduzindo riscos.
+* **Cada microsserviço cuida de uma funcionalidade diferente.**
+    * **Explicação:** Os serviços são projetados em torno de capacidades de negócio específicas. Por exemplo, em um sistema de e-commerce, pode haver microsserviços separados para autenticação de usuário, catálogo de produtos, processamento de pedidos e pagamento.
+* **Cada microsserviço possui seus próprios dados e lógica.**
+    * **Explicação:** Um princípio fundamental dos microsserviços é que cada serviço encapsula sua própria lógica de negócio e dados. Isso garante alta coesão dentro de um serviço e acoplamento frouxo entre os serviços.
+* **Eles armazenam os dados em bancos de dados privados.**
+    * **Explicação:** Refletindo o princípio de "dados próprios", cada microsserviço tipicamente gerencia seus dados em seu próprio banco de dados dedicado, evitando dependências diretas de banco de dados entre os serviços e permitindo liberdade tecnológica.
+* **Comunicação via APIs:** Para interagir, os microsserviços se comunicam entre si principalmente através de Interfaces de Programação de Aplicações (APIs), possibilitando a troca de dados segura e padronizada entre serviços independentes.
+
+### 2. Arquitetura Monolítica vs. Arquitetura de Microsserviços
+
+Esses dois estilos arquiteturais oferecem vantagens e desvantagens distintas, tornando-os adequados para diferentes tipos de aplicações e contextos organizacionais.
+
+#### Arquitetura Monolítica
+
+* **Número limitado de bancos de dados.**
+    * **Explicação:** Em uma aplicação monolítica, todas as funcionalidades frequentemente compartilham um único banco de dados centralizado ou um número muito pequeno de bancos de dados. Isso simplifica o gerenciamento de dados inicialmente, mas pode levar a problemas de escalabilidade e contenção à medida que a aplicação cresce.
+* **Toda a aplicação usa os mesmos bancos de dados.**
+    * **Explicação:** O acesso aos dados é tipicamente direto em toda a aplicação, pois todos os componentes residem na mesma base de código e frequentemente compartilham o mesmo armazenamento de dados.
+* **Poderia ser uma opção viável para aplicações de pequena escala.**
+    * **Explicação:** Para aplicações mais simples com requisitos estáveis e equipes menores, uma arquitetura monolítica pode ser mais rápida de desenvolver e implantar, e mais fácil de gerenciar devido à sua única base de código.
+
+#### Arquitetura de Microsserviços
+
+* **Um banco de dados para cada microsserviço.**
+    * **Explicação:** Essa descentralização dos dados permite que cada serviço otimize sua tecnologia de armazenamento de dados e esquema para suas necessidades específicas, contribuindo para melhor desempenho e evolução independente.
+* **Microsserviços devem fazer chamadas de API para alcançar o banco de dados de outro serviço.**
+    * **Explicação:** Os serviços não acessam diretamente o banco de dados de outro serviço. Se um microsserviço precisar de dados que pertencem a outro serviço, ele deve solicitar esses dados através da API exposta do serviço proprietário. Isso mantém o encapsulamento e a independência.
+* **Microsserviços são eficazes em grandes organizações e produtos complexos.**
+    * **Explicação:** Sua modularidade, capacidade de implantação independente e escalabilidade os tornam ideais para aplicações de grande escala com requisitos em evolução, equipes distribuídas e alto tráfego, permitindo que diferentes equipes trabalhem em serviços separados simultaneamente.

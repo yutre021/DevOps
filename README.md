@@ -671,7 +671,7 @@ APIs são conectores fundamentais na arquitetura de software moderna, permitindo
 
 This document explains what microservices are, their key characteristics, and how the DevOps methodology is applied to their development and deployment.
 
-![Melhorias do Produto e Ciclos de Lançamento, image from DataCamp](src/microservices.png)
+![Microservices, image from DataCamp](src/microservices.png)
 
 ---
 

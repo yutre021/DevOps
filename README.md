@@ -1260,3 +1260,67 @@ Este documento esclarece várias afirmações relacionadas a pipelines CI/CD, au
 
 2.  **Software de controle de versão funciona após os pipelines CI/CD.**
     * **Explicação:** Esta afirmação é **Falsa**. O software de controle de versão (ex: Git) é o *ponto de partida* de um pipeline CI/CD. Os desenvolvedores fazem commit de suas alterações de código em um sistema de controle de versão, o que então *dispara* o pipeline CI/CD para iniciar seus processos automatizados de construção, teste e implantação. É a base sobre a qual o pipeline opera, não algo que vem depois dele.
+  
+# Core Concepts in Infrastructure and DevOps (Conceitos Essenciais em Infraestrutura e DevOps)
+
+This document outlines fundamental concepts pertaining to IT infrastructure and key practices within the DevOps methodology.
+
+---
+
+## English Version
+
+### The Infrastructure Concepts
+
+These concepts represent critical foundational elements required for building and maintaining resilient and operational digital systems.
+
+* **Network**
+    * **Explanation:** Refers to the interconnected systems and protocols that enable communication between different computing devices, servers, and applications. It includes everything from physical cables and wireless connections to routing and security configurations, essential for data flow and accessibility.
+* **Security**
+    * **Explanation:** Encompasses the measures and practices designed to protect IT systems, networks, and data from unauthorized access, use, disclosure, disruption, modification, or destruction. It involves policies, technologies, and procedures to ensure confidentiality, integrity, and availability.
+* **Deployment**
+    * **Explanation:** This is the process of making software applications or services available for use. It involves packaging, configuring, installing, and running the software in a target environment (e.g., production, staging), ensuring it functions correctly and is accessible to its intended users.
+
+### DevOps Concepts
+
+These concepts are central to the DevOps philosophy, aiming to bridge the gap between development and operations for faster, more reliable software delivery.
+
+* **CI/CD Pipelines**
+    * **Explanation:** Stands for Continuous Integration/Continuous Delivery (or Continuous Deployment) Pipelines. These are automated sequences of steps (build, test, deploy) that accelerate the software development lifecycle, ensuring frequent, high-quality, and reliable releases by minimizing manual intervention and human error.
+* **Experimentation**
+    * **Explanation:** In a DevOps context, experimentation involves continuously testing new ideas, features, or operational changes in controlled environments to gather data and learn quickly. This promotes innovation, validates assumptions, and allows teams to make data-driven decisions about product direction and operational efficiency.
+* **Minimum Viable Product (MVP)**
+    * **Explanation:** An MVP is the simplest version of a new product or feature that delivers enough value to satisfy early customers and enable a team to gather validated learning about the product with the least amount of effort. It's a strategy to test hypotheses early and iteratively build upon a core idea based on real user feedback.
+
+---
+
+## Versão em Português
+
+# Conceitos Essenciais em Infraestrutura e DevOps
+
+Este documento descreve conceitos fundamentais relacionados à infraestrutura de TI e práticas chave dentro da metodologia DevOps.
+
+---
+
+## Versão em Português
+
+### Os Conceitos de Infraestrutura
+
+Esses conceitos representam elementos fundamentais críticos necessários para construir e manter sistemas digitais resilientes e operacionais.
+
+* **Rede**
+    * **Explicação:** Refere-se aos sistemas interconectados e protocolos que permitem a comunicação entre diferentes dispositivos de computação, servidores e aplicações. Inclui tudo, desde cabos físicos e conexões sem fio até configurações de roteamento e segurança, sendo essencial para o fluxo de dados e a acessibilidade.
+* **Segurança**
+    * **Explicação:** Abrange as medidas e práticas projetadas para proteger sistemas de TI, redes e dados contra acesso, uso, divulgação, interrupção, modificação ou destruição não autorizados. Envolve políticas, tecnologias e procedimentos para garantir confidencialidade, integridade e disponibilidade.
+* **Implantação (Deployment)**
+    * **Explicação:** Este é o processo de tornar aplicações ou serviços de software disponíveis para uso. Envolve empacotar, configurar, instalar e executar o software em um ambiente de destino (ex: produção, staging), garantindo que funcione corretamente e seja acessível aos seus usuários pretendidos.
+
+### Conceitos DevOps
+
+Esses conceitos são centrais para a filosofia DevOps, visando preencher a lacuna entre desenvolvimento e operações para uma entrega de software mais rápida e confiável.
+
+* **Pipelines CI/CD**
+    * **Explicação:** Significa Pipelines de Integração Contínua/Entrega Contínua (ou Implantação Contínua). São sequências automatizadas de etapas (construção, teste, implantação) que aceleram o ciclo de vida do desenvolvimento de software, garantindo lançamentos frequentes, de alta qualidade e confiáveis, minimizando a intervenção manual e o erro humano.
+* **Experimentação**
+    * **Explicação:** No contexto DevOps, a experimentação envolve testar continuamente novas ideias, funcionalidades ou mudanças operacionais em ambientes controlados para coletar dados e aprender rapidamente. Isso promove a inovação, valida suposições e permite que as equipes tomem decisões baseadas em dados sobre a direção do produto e a eficiência operacional.
+* **Produto Mínimo Viável (MVP)**
+    * **Explicação:** Um MVP é a versão mais simples de um novo produto ou funcionalidade que entrega valor suficiente para satisfazer os primeiros clientes e permite que uma equipe obtenha aprendizado validado sobre o produto com o mínimo esforço. É uma estratégia para testar hipóteses precocemente e construir iterativamente sobre uma ideia central com base no feedback real do usuário.

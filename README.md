@@ -147,7 +147,7 @@ A imagem demonstra como um MVP se encaixa em um fluxo de desenvolvimento e lanç
 ![Melhorias do Produto e Ciclos de Lançamento, image from DataCamp](src/product_dev.png)
 
 
-This document explains the concept of continuous product improvement driven by customer feedback across iterative release cycles, as illustrated in the provided image. It highlights how a Minimum Viable Product (MVP) acts as the starting point for this ongoing enhancement process, particularly within a DevOps context.
+This document explains the concept of continuous product improvement driven by customer feedback across iterative release cycles. It highlights how a Minimum Viable Product (MVP) acts as the starting point for this ongoing enhancement process, particularly within a DevOps context.
 
 ---
 
@@ -191,7 +191,7 @@ This iterative approach, empowered by DevOps principles, ensures that product de
 
 # Melhorias do Produto Através de Ciclos de Lançamento Iterativos
 
-Este documento explica o conceito de melhoria contínua do produto impulsionada pelo feedback do cliente através de ciclos de lançamento iterativos, conforme ilustrado na imagem fornecida. Ele destaca como um Produto Mínimo Viável (MVP) atua como o ponto de partida para este processo contínuo de aprimoramento, especialmente em um contexto DevOps.
+Este documento explica o conceito de melhoria contínua do produto impulsionada pelo feedback do cliente através de ciclos de lançamento iterativos, Destaca como um Produto Mínimo Viável (MVP) atua como o ponto de partida para este processo contínuo de aprimoramento, especialmente em um contexto DevOps.
 
 ---
 
@@ -276,7 +276,7 @@ Lida com o gerenciamento de pipelines de dados, desenvolvimento de modelos de ma
 
 # Project Management and DevOps (Gerenciamento de Projetos e DevOps)
 
-This document summarizes the importance of project management within a DevOps context and defines what project management entails, based on the provided image.
+This document summarizes the importance of project management within a DevOps context and defines what project management entails.
 
 ---
 
@@ -304,7 +304,7 @@ Project management plays a crucial role in enabling and enhancing DevOps practic
 
 # Gerenciamento de Projetos e DevOps
 
-Este documento resume a importância do gerenciamento de projetos dentro de um contexto DevOps e define o que o gerenciamento de projetos implica, com base na imagem fornecida.
+Este documento resume a importância do gerenciamento de projetos dentro de um contexto DevOps e define o que o gerenciamento de projetos implica.
 
 ---
 
@@ -326,7 +326,7 @@ O gerenciamento de projetos desempenha um papel crucial ao habilitar e aprimorar
 
 # Choosing the Right Project Management Model (Escolhendo o Modelo Certo de Gerenciamento de Projetos)
 
-This document summarizes the key factors to consider when selecting a project management methodology and highlights the prevalent standard in software development, based on the provided image.
+This document summarizes the key factors to consider when selecting a project management methodology and highlights the prevalent standard in software development.
 
 ---
 
@@ -353,7 +353,7 @@ For most software development teams today, **Agile is the de facto standard**.
 
 # Escolhendo o Modelo Certo de Gerenciamento de Projetos
 
-Este documento resume os fatores chave a serem considerados ao selecionar uma metodologia de gerenciamento de projetos e destaca o padrão predominante no desenvolvimento de software, com base na imagem fornecida.
+Este documento resume os fatores chave a serem considerados ao selecionar uma metodologia de gerenciamento de projetos e destaca o padrão predominante no desenvolvimento de software.
 
 ---
 
@@ -375,7 +375,7 @@ Para a maioria das equipes de desenvolvimento de software hoje, o **Agile é o p
 
 # Project Management Methodologies: True or False (Metodologias de Gerenciamento de Projetos: Verdadeiro ou Falso)
 
-This document explains the validity of various statements regarding popular project management methodologies, as presented in the provided image.
+This document explains the validity of various statements regarding popular project management methodologies.
 
 ---
 
@@ -431,7 +431,7 @@ Este documento explica a validade de várias afirmações sobre metodologias pop
   
 # Factors in Project Management (Fatores no Gerenciamento de Projetos)
 
-This document outlines some factors that are considered important or unimportant/irrelevant when making decisions in project management, based on the provided image.
+This document outlines some factors that are considered important or unimportant/irrelevant when making decisions in project management.
 
 ---
 
@@ -460,7 +460,7 @@ These factors are generally considered not to have a direct or significant impac
 
 # Fatores no Gerenciamento de Projetos
 
-Este documento descreve **alguns fatores** que são considerados importantes ou irrelevantes/sem importância ao tomar decisões no gerenciamento de projetos, com base na imagem fornecida.
+Este documento descreve **alguns fatores** que são considerados importantes ou irrelevantes/sem importância ao tomar decisões no gerenciamento de projetos.
 
 ---
 

@@ -1589,3 +1589,6 @@ O processamento em lote lida com grandes volumes de dados que se acumularam dura
 * **Para análises e relatórios.**
     * **Explicação:** Muitas tarefas analíticas, como a geração de relatórios de vendas mensais, a realização de inteligência de negócios trimestral ou o treinamento de modelos complexos de machine learning em dados históricos, são bem adequadas para o processamento em lote. Essas atividades tipicamente consomem grandes conjuntos de dados e não exigem resultados em tempo real, permitindo um processamento agendado e eficiente.
 
+### Cycle Analytics
+
+![DataCamp image Cycle](src/cycle_analytics.png)

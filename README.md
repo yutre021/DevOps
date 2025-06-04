@@ -144,7 +144,7 @@ A imagem demonstra como um MVP se encaixa em um fluxo de desenvolvimento e lanç
 
 # Product Improvements through Iterative Release Cycles
 
-<img src="src/product_dev.png" alt="Product Improvements and Release Cycles, Imagge from DataCamp" width="600"/>
+![Melhorias do Produto e Ciclos de Lançamento, image from DataCamp](src/product_dev.png)
 
 
 This document explains the concept of continuous product improvement driven by customer feedback across iterative release cycles, as illustrated in the provided image. It highlights how a Minimum Viable Product (MVP) acts as the starting point for this ongoing enhancement process, particularly within a DevOps context.

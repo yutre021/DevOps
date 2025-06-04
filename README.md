@@ -671,6 +671,8 @@ APIs são conectores fundamentais na arquitetura de software moderna, permitindo
 
 This document explains what microservices are, their key characteristics, and how the DevOps methodology is applied to their development and deployment.
 
+![Melhorias do Produto e Ciclos de Lançamento, image from DataCamp](src/microservices.png)
+
 ---
 
 ## English Version
@@ -750,3 +752,6 @@ A imagem ilustra como microsserviços individuais, como "Microsserviço: Hotéis
 * **Requisitos e Lançamento:** Este ciclo é impulsionado por um novo "Requisito" e culmina em um "Lançamento", permitindo iteração rápida e implantação de atualizações para serviços específicos sem a necessidade de relançar a aplicação inteira.
 
 Essa sinergia entre DevOps e microsserviços permite que as organizações alcancem ciclos de lançamento mais rápidos, maior eficiência operacional e sistemas mais resilientes, gerenciando unidades menores e mais gerenciáveis.
+
+
+

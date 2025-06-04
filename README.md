@@ -406,7 +406,7 @@ This document explains the validity of various statements regarding popular proj
 
 # Metodologias de Gerenciamento de Projetos: Verdadeiro ou Falso
 
-Este documento explica a validade de várias afirmações sobre metodologias populares de gerenciamento de projetos, conforme apresentado na imagem fornecida.
+Este documento explica a validade de várias afirmações sobre metodologias populares de gerenciamento de projetos.
 
 ---
 

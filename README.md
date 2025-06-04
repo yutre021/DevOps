@@ -1956,3 +1956,62 @@ Aqui estão os elementos centrais que definem a qualidade dos dados:
 
 * **Temporalidade (Timeliness):**
     * **Explicação:** A temporalidade dos dados refere-se à sua atualidade e o quão recentes eles são. Os dados perdem seu valor se não estiverem disponíveis quando necessários ou se refletirem um estado de coisas desatualizado. Aplicações em tempo real, em particular, dependem fortemente de dados oportunos. Por exemplo, preços de ações com várias horas de atraso significariam dados intempestivos.
+ 
+
+# Data Quality and DevOps: True or False Statements (Qualidade de Dados e DevOps: Afirmações Verdadeiras ou Falsas)
+
+This document clarifies various statements regarding data quality and its relationship with DevOps practices.
+
+---
+
+## English Version
+
+### True Statements:
+
+1.  **Data quality refers to how trusted a set of information is.**
+    * **Explanation:** This is **True**. Data quality is fundamentally about the fitness for use of data. Trustworthiness is a direct consequence of high-quality data, encompassing aspects like accuracy, completeness, consistency, relevance, and timeliness. If data is trusted, it is generally considered to be of high quality.
+
+2.  **DevOps helps us have high data quality, because it automates and ensures software testing.**
+    * **Explanation:** This is **True**. DevOps practices, particularly through continuous integration, continuous delivery (CI/CD), and automated testing, indirectly contribute to data quality. By ensuring that the software creating and processing the data is robust, reliable, and free of defects, DevOps reduces the likelihood of data errors being introduced or propagated by faulty applications. Automated tests validate not just code functionality but also often verify data integrity and transformations.
+
+### False Statements:
+
+1.  **All data in an organization must be high quality.**
+    * **Explanation:** This is **False**. While high data quality is desirable, demanding "all data" to be of high quality is often impractical, uneconomical, and unnecessary. The required level of data quality depends on its specific use case. For instance, data used for critical financial reporting requires extremely high quality, while data for exploratory analysis might tolerate lower quality in certain areas. It's about "fitness for purpose," not universal perfection.
+
+2.  **Completeness and accuracy refers to the same elements of data quality.**
+    * **Explanation:** This is **False**. Completeness and accuracy are distinct elements of data quality.
+        * **Completeness** refers to whether all required data is present (i.e., no missing values).
+        * **Accuracy** refers to whether the data values are correct and reflect the real world truthfully.
+        A data entry could be complete (all fields filled) but inaccurate (filled with wrong information), or it could be accurate (correct information) but incomplete (missing optional fields). They are related but distinct dimensions.
+
+---
+
+## Versão em Português
+
+# Qualidade de Dados e DevOps: Afirmações Verdadeiras ou Falsas
+
+Este documento esclarece várias afirmações relacionadas à qualidade de dados e sua relação com as práticas DevOps.
+
+---
+
+## Versão em Português
+
+### Afirmações Verdadeiras:
+
+1.  **Qualidade de dados refere-se a quão confiável é um conjunto de informações.**
+    * **Explicação:** Esta afirmação é **Verdadeira**. A qualidade dos dados é fundamentalmente sobre a adequação dos dados para uso. A confiabilidade é uma consequência direta de dados de alta qualidade, abrangendo aspectos como precisão, completude, consistência, relevância e temporalidade. Se os dados são confiáveis, eles são geralmente considerados de alta qualidade.
+
+2.  **DevOps nos ajuda a ter alta qualidade de dados, porque automatiza e garante o teste de software.**
+    * **Explicação:** Esta afirmação é **Verdadeira**. As práticas DevOps, particularmente através da integração contínua, entrega contínua (CI/CD) e testes automatizados, contribuem indiretamente para a qualidade dos dados. Ao garantir que o software que cria e processa os dados seja robusto, confiável e livre de defeitos, o DevOps reduz a probabilidade de erros de dados serem introduzidos ou propagados por aplicações defeituosas. Testes automatizados validam não apenas a funcionalidade do código, mas também frequentemente verificam a integridade e as transformações dos dados.
+
+### Afirmações Falsas:
+
+1.  **Todos os dados em uma organização devem ser de alta qualidade.**
+    * **Explicação:** Esta afirmação é **Falsa**. Embora a alta qualidade dos dados seja desejável, exigir que "todos os dados" sejam de alta qualidade é frequentemente impraticável, antieconômico e desnecessário. O nível de qualidade de dados exigido depende do seu caso de uso específico. Por exemplo, dados usados para relatórios financeiros críticos exigem uma qualidade extremamente alta, enquanto dados para análises exploratórias podem tolerar uma qualidade menor em certas áreas. Trata-se de "adequação ao propósito", não de perfeição universal.
+
+2.  **Completude e precisão referem-se aos mesmos elementos de qualidade de dados.**
+    * **Explicação:** Esta afirmação é **Falsa**. Completude e precisão são elementos distintos da qualidade dos dados.
+        * **Completude** refere-se a se todos os dados necessários estão presentes (ou seja, sem valores ausentes).
+        * **Precisão** refere-se a se os valores dos dados estão corretos e refletem a realidade de forma verdadeira.
+        Uma entrada de dados pode estar completa (todos os campos preenchidos), mas imprecisa (preenchida com informações erradas), ou pode estar precisa (informações corretas), mas incompleta (faltando campos opcionais). Elas são dimensões relacionadas, mas distintas.

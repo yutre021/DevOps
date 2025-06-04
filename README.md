@@ -371,3 +371,60 @@ Escolher o modelo de gerenciamento de projetos mais eficaz é crucial para o suc
 Para a maioria das equipes de desenvolvimento de software hoje, o **Agile é o padrão de fato**.
 * As metodologias ágeis (como Scrum e Kanban) enfatizam o desenvolvimento iterativo, flexibilidade, colaboração e feedback contínuo.
 * Essa abordagem é particularmente adequada para a natureza dinâmica e em evolução dos projetos de software, permitindo que as equipes se adaptem às mudanças rapidamente e entreguem valor incrementalmente.
+
+
+# Project Management Methodologies: True or False (Metodologias de Gerenciamento de Projetos: Verdadeiro ou Falso)
+
+This document explains the validity of various statements regarding popular project management methodologies, as presented in the provided image.
+
+---
+
+## English Version
+
+### True Statements:
+
+1.  **Scrum and Kanban are both great implementations of the Agile philosophy.**
+    * **Explanation:** This is **True**. Agile is a mindset defined by values and principles (e.g., from the Agile Manifesto), focusing on iterative development, customer collaboration, and responding to change. Scrum and Kanban are two widely adopted frameworks or methods that operationalize these Agile principles, each with its own practices and strengths.
+
+2.  **Waterfall could be a viable option for small tasks that does not have much complexity.**
+    * **Explanation:** This is **True**. While often criticized for its rigidity in complex, evolving projects, the Waterfall model's sequential, linear approach can be perfectly adequate and even efficient for very small, simple, and well-defined tasks or projects where requirements are unlikely to change and risks are minimal.
+
+3.  **Kanban is all about continuous improvement and using visualizations.**
+    * **Explanation:** This is **True**. At its core, Kanban focuses on visualizing workflow (e.g., with Kanban boards), limiting Work In Progress (WIP), and continuously improving the flow of value. Its emphasis is on identifying bottlenecks and optimizing the process through incremental changes.
+
+### False Statements:
+
+1.  **Scrum does not define specific roles but ensures collective responsibility.**
+    * **Explanation:** This is **False**. Scrum *does* define specific roles: the Product Owner, the Scrum Master, and the Development Team. While Scrum strongly emphasizes collective responsibility for the sprint goal and product outcome, these distinct roles are fundamental to how Scrum teams operate and collaborate.
+
+2.  **Agile is a definitive project management methodology with set practices.**
+    * **Explanation:** This is **False**. Agile is not a single, definitive methodology with a rigid set of practices. Instead, Agile is a *philosophy*, a *mindset*, or a *set of principles* (as outlined in the Agile Manifesto). Methodologies like Scrum, Kanban, Lean, Extreme Programming (XP), etc., are specific *frameworks* or *approaches* that implement the Agile philosophy, each with its own defined practices.
+
+---
+
+## Versão em Português
+
+# Metodologias de Gerenciamento de Projetos: Verdadeiro ou Falso
+
+Este documento explica a validade de várias afirmações sobre metodologias populares de gerenciamento de projetos, conforme apresentado na imagem fornecida.
+
+---
+
+### Afirmações Verdadeiras:
+
+1.  **Scrum e Kanban são ambas ótimas implementações da filosofia Agile.**
+    * **Explicação:** Esta afirmação é **Verdadeira**. Agile é uma mentalidade definida por valores e princípios (ex: do Manifesto Ágil), focando em desenvolvimento iterativo, colaboração com o cliente e resposta a mudanças. Scrum e Kanban são dois frameworks ou métodos amplamente adotados que operacionalizam esses princípios Ágeis, cada um com suas próprias práticas e pontos fortes.
+
+2.  **Waterfall poderia ser uma opção viável para tarefas pequenas que não possuem muita complexidade.**
+    * **Explicação:** Esta afirmação é **Verdadeira**. Embora frequentemente criticado por sua rigidez em projetos complexos e em evolução, a abordagem sequencial e linear do modelo Waterfall pode ser perfeitamente adequada e até eficiente para tarefas ou projetos muito pequenos, simples e bem definidos, onde os requisitos são improváveis de mudar e os riscos são mínimos.
+
+3.  **Kanban é sobre melhoria contínua e uso de visualizações.**
+    * **Explicação:** Esta afirmação é **Verdadeira**. Em sua essência, o Kanban foca em visualizar o fluxo de trabalho (ex: com quadros Kanban), limitar o Trabalho em Andamento (WIP) e melhorar continuamente o fluxo de valor. Sua ênfase está em identificar gargalos e otimizar o processo por meio de mudanças incrementais.
+
+### Afirmações Falsas:
+
+1.  **Scrum não define papéis específicos, mas garante responsabilidade coletiva.**
+    * **Explicação:** Esta afirmação é **Falsa**. O Scrum *define* papéis específicos: o Product Owner (Dono do Produto), o Scrum Master e o Time de Desenvolvimento. Embora o Scrum enfatize fortemente a responsabilidade coletiva pelo objetivo da sprint e pelo resultado do produto, esses papéis distintos são fundamentais para o funcionamento e a colaboração das equipes Scrum.
+
+2.  **Agile é uma metodologia definitiva de gerenciamento de projetos com práticas definidas.**
+    * **Explicação:** Esta afirmação é **Falsa**. Agile não é uma metodologia única e definitiva com um conjunto rígido de práticas. Em vez disso, Agile é uma *filosofia*, uma *mentalidade* ou um *conjunto de princípios* (conforme descrito no Manifesto Ágil). Metodologias como Scrum, Kanban, Lean, Extreme Programming (XP), etc., são *frameworks* ou *abordagens* específicas que implementam a filosofia Ágil, cada uma com suas próprias práticas definidas.

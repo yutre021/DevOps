@@ -226,3 +226,7 @@ O feedback coletado dos "Clientes" após o Ciclo de Lançamento 1 dita diretamen
 ### Conclusão
 
 Essa abordagem iterativa, impulsionada pelos princípios DevOps, garante que o desenvolvimento de produtos seja altamente responsivo às necessidades do mercado. Ao lançar continuamente, coletar feedback e tomar decisões orientadas por dados sobre investir mais, adaptar ou pivotar, as organizações podem reduzir significativamente os riscos e aumentar suas chances de construir produtos de sucesso que realmente ressoam com os clientes.
+
+### Cycle
+![Cycle, image from DataCamp](src/dev_fig.png)
+

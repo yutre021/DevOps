@@ -805,3 +805,71 @@ A sinergia entre os princípios DevOps e a arquitetura de microsserviços traz v
 * **Se algo der errado com um microsserviço, o restante ainda funcionará bem.**
     * **Explicação:** Isso se relaciona diretamente com o conceito de isolamento de falhas inerente aos microsserviços. Se um bug, falha ou problema de desempenho ocorrer em um único microsserviço, o impacto é localizado. Outros serviços, operando independentemente, continuam a funcionar normalmente, mantendo a disponibilidade e a funcionalidade geral da aplicação, o que é um aspecto crítico da confiabilidade.
 
+
+# Architectural Decisions: Relevant vs. Irrelevant Factors (Decisões Arquiteturais: Fatores Relevantes vs. Irrelevantes)
+
+This document outlines key factors that are considered relevant or irrelevant when making decisions about software architecture, based on the provided image. Understanding these distinctions helps in building robust and effective systems.
+
+---
+
+## English Version
+
+When designing software architecture, it's crucial to distinguish between factors that significantly influence the architectural choices and those that do not.
+
+### Relevant Factors (for Software Architecture):
+
+These factors have a direct and substantial impact on how a software system should be structured and designed:
+
+* **The complexity of the software:**
+    * **Explanation:** The inherent intricacy of the software system (e.g., number of features, interdependencies, business rules) is a primary driver for architectural decisions. More complex software often necessitates distributed, modular architectures (like microservices) to manage complexity.
+* **Size of the team:**
+    * **Explanation:** The number of people involved in developing and maintaining the software can influence architectural choices. Smaller teams might lean towards simpler architectures, while larger, distributed teams might benefit from architectures that promote independent work and clear boundaries between components.
+* **The platform that the software is interacting with the users: mobile or web.**
+    * **Explanation:** The target user interface platform (e.g., native mobile applications, web browsers, desktop applications) profoundly impacts architectural decisions, including front-end frameworks, API design, performance considerations, and deployment strategies.
+
+### Irrelevant Factors (for Software Architecture):
+
+These factors are generally considered to have little to no direct impact on the fundamental architectural design of the software itself:
+
+* **The technology used for the data pipelines:**
+    * **Explanation:** While data pipelines are a part of the overall system, the *specific technology* chosen for them (e.g., Kafka, Apache Flink, custom scripts) is typically an implementation detail within a chosen architectural pattern, rather than a driver for the overall architecture. The *need* for data pipelines is relevant, but the specific tool is less so for the high-level architecture.
+* **The geolocation of software users:**
+    * **Explanation:** The geographical location of users is typically more relevant for deployment strategies (e.g., content delivery networks, regional data centers for latency), compliance, or data sovereignty, rather than determining the fundamental software architecture itself.
+* **The sector of the organization:**
+    * **Explanation:** The industry sector (e.g., finance, healthcare, e-commerce) an organization operates in does not directly dictate the core software architecture. While industry-specific compliance or security requirements might influence certain architectural decisions, the sector itself isn't a primary architectural driver. The *nature* of the software's problems within that sector is what matters.
+
+---
+
+## Versão em Português
+
+# Decisões Arquiteturais: Fatores Relevantes vs. Irrelevantes
+
+Este documento descreve os fatores chave que são considerados relevantes ou irrelevantes ao tomar decisões sobre arquitetura de software, com base na imagem fornecida. Compreender essas distinções ajuda na construção de sistemas robustos e eficazes.
+
+---
+
+## Versão em Português
+
+Ao projetar a arquitetura de software, é crucial distinguir entre fatores que influenciam significativamente as escolhas arquiteturais e aqueles que não o fazem.
+
+### Fatores Relevantes (para Arquitetura de Software):
+
+Esses fatores têm um impacto direto e substancial na forma como um sistema de software deve ser estruturado e projetado:
+
+* **A complexidade do software:**
+    * **Explicação:** A complexidade inerente do sistema de software (ex: número de funcionalidades, interdependências, regras de negócio) é um dos principais impulsionadores das decisões arquiteturais. Softwares mais complexos frequentemente necessitam de arquiteturas distribuídas e modulares (como microsserviços) para gerenciar essa complexidade.
+* **Tamanho da equipe:**
+    * **Explicação:** O número de pessoas envolvidas no desenvolvimento e manutenção do software pode influenciar as escolhas arquiteturais. Equipes menores podem tender a arquiteturas mais simples, enquanto equipes maiores e distribuídas podem se beneficiar de arquiteturas que promovem trabalho independente e limites claros entre os componentes.
+* **A plataforma com a qual o software está interagindo com os usuários: mobile ou web.**
+    * **Explicação:** A plataforma de interface do usuário alvo (ex: aplicativos móveis nativos, navegadores web, aplicativos de desktop) impacta profundamente as decisões arquiteturais, incluindo frameworks de front-end, design de API, considerações de desempenho e estratégias de implantação.
+
+### Fatores Irrelevantes (para Arquitetura de Software):
+
+Esses fatores são geralmente considerados como tendo pouco ou nenhum impacto direto no design arquitetural fundamental do software em si:
+
+* **A tecnologia usada para os pipelines de dados:**
+    * **Explicação:** Embora os pipelines de dados sejam parte do sistema geral, a *tecnologia específica* escolhida para eles (ex: Kafka, Apache Flink, scripts personalizados) é tipicamente um detalhe de implementação dentro de um padrão arquitetural escolhido, e não um impulsionador para a arquitetura geral. A *necessidade* de pipelines de dados é relevante, mas a ferramenta específica é menos importante para a arquitetura de alto nível.
+* **A geolocalização dos usuários de software:**
+    * **Explicação:** A localização geográfica dos usuários é geralmente mais relevante para estratégias de implantação (ex: redes de entrega de conteúdo, centros de dados regionais para latência), conformidade ou soberania de dados, em vez de determinar a arquitetura fundamental do software em si.
+* **O setor da organização:**
+    * **Explicação:** O setor industrial (ex: finanças, saúde, e-commerce) em que uma organização opera não dita diretamente a arquitetura central do software. Embora requisitos de conformidade ou segurança específicos do setor possam influenciar certas decisões arquiteturais, o setor em si não é um impulsionador arquitetural primário. A *natureza* dos problemas do software dentro desse setor é o que importa.

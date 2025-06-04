@@ -1135,3 +1135,68 @@ Esta etapa final consiste em tornar o software desenvolvido e testado disponíve
 
 * **Organizar o software para começar a atender os usuários.**
     * **Explicação:** Isso envolve o processo de empacotamento, configuração e lançamento do software para o ambiente de produção, onde ele se torna acessível e funcional para o público-alvo. Isso inclui tarefas como configurar servidores, bancos de dados, configurações de rede e garantir a escalabilidade e confiabilidade para operações em tempo real.
+ 
+
+# CI/CD Pipeline: Continuous Integration and Continuous Delivery/Deployment
+
+![DataCamp CI/CD IMAGE](src/ci_cd.png)
+
+This document explains the typical stages of a CI/CD pipeline, a fundamental practice in modern software development that automates and streamlines the process from code changes to deployment.
+
+---
+
+## English Version
+
+### Understanding the CI/CD Pipeline
+
+A CI/CD (Continuous Integration/Continuous Delivery or Deployment) pipeline automates the steps involved in delivering new software features or bug fixes, ensuring faster, more reliable, and more frequent releases.
+
+1.  **Version Control**
+    * **Explanation:** The process begins with version control systems (like Git). Developers commit their code changes to a shared repository. This step is crucial for tracking changes, collaborating, and ensuring all code is managed centrally.
+
+2.  **Build**
+    * **Explanation:** Once code changes are committed, the pipeline automatically triggers a build process. This involves compiling the source code, resolving dependencies, and creating executable artifacts (e.g., binaries, packages, Docker images) that are ready for testing and deployment.
+
+3.  **Testing and Staging**
+    * **Explanation:** After a successful build, the software moves to rigorous testing. This stage includes various automated tests (unit, integration, performance, security) to detect defects early. Simultaneously, the build might be deployed to a staging environment, which closely mirrors the production environment, allowing for further testing and validation before a wider release. This step often includes feedback loops to identify and resolve issues.
+
+4.  **Autotest**
+    * **Explanation:** This represents a dedicated phase for automated quality assurance. All necessary automated tests are executed to ensure the software's functionality, performance, and reliability meet predefined criteria. A green checkmark indicates success, allowing the pipeline to proceed.
+
+5.  **Deployment**
+    * **Explanation:** The final stage involves automatically deploying the successfully built and tested software to the production environment, making it available to end-users. This step is typically highly automated, ensuring consistent and rapid releases. Depending on the setup, this can be Continuous Delivery (manual trigger for production) or Continuous Deployment (automatic deployment to production).
+
+This entire pipeline aims to reduce manual intervention, minimize errors, and accelerate the delivery of high-quality software.
+
+---
+
+## Versão em Português
+
+# Pipeline CI/CD: Integração Contínua e Entrega/Implantação Contínua
+
+Este documento explica as etapas típicas de um pipeline CI/CD, uma prática fundamental no desenvolvimento de software moderno que automatiza e otimiza o processo desde as alterações de código até a implantação.
+
+---
+
+## Versão em Português
+
+### Compreendendo o Pipeline CI/CD
+
+Um pipeline CI/CD (Integração Contínua/Entrega Contínua ou Implantação Contínua) automatiza as etapas envolvidas na entrega de novas funcionalidades de software ou correções de bugs, garantindo lançamentos mais rápidos, mais confiáveis e mais frequentes.
+
+1.  **Controle de Versão**
+    * **Explicação:** O processo começa com sistemas de controle de versão (como o Git). Os desenvolvedores commitam suas alterações de código em um repositório compartilhado. Esta etapa é crucial para rastrear mudanças, colaborar e garantir que todo o código seja gerenciado centralmente.
+
+2.  **Compilação (Build)**
+    * **Explicação:** Uma vez que as alterações de código são commitadas, o pipeline dispara automaticamente um processo de compilação. Isso envolve compilar o código-fonte, resolver dependências e criar artefatos executáveis (ex: binários, pacotes, imagens Docker) que estão prontos para teste e implantação.
+
+3.  **Teste e Staging (Preparação)**
+    * **Explicação:** Após uma compilação bem-sucedida, o software passa por testes rigorosos. Esta etapa inclui vários testes automatizados (unidade, integração, desempenho, segurança) para detectar defeitos precocemente. Simultaneamente, a compilação pode ser implantada em um ambiente de staging, que espelha de perto o ambiente de produção, permitindo testes e validações adicionais antes de um lançamento mais amplo. Esta etapa frequentemente inclui ciclos de feedback para identificar e resolver problemas.
+
+4.  **Autoteste**
+    * **Explicação:** Isso representa uma fase dedicada à garantia de qualidade automatizada. Todos os testes automatizados necessários são executados para garantir que a funcionalidade, desempenho e confiabilidade do software atendam aos critérios predefinidos. Uma marca de verificação verde indica sucesso, permitindo que o pipeline prossiga.
+
+5.  **Implantação (Deployment)**
+    * **Explicação:** A etapa final envolve a implantação automática do software compilado e testado com sucesso no ambiente de produção, tornando-o disponível para os usuários finais. Esta etapa é tipicamente altamente automatizada, garantindo lançamentos consistentes e rápidos. Dependendo da configuração, isso pode ser Entrega Contínua (gatilho manual para produção) ou Implantação Contínua (implantação automática para produção).
+
+Todo este pipeline visa reduzir a intervenção manual, minimizar erros e acelerar a entrega de software de alta qualidade.

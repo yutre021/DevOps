@@ -1677,3 +1677,81 @@ A arquitetura pode ser dividida em três segmentos principais:
     * **Análises / BI (Business Intelligence):** O destino final onde ferramentas e plataformas são usadas para analisar os dados processados.
     * **Cientistas de Dados podem usar os dados para insights, relatórios e dashboards.**
         * **Explicação:** Os dados estruturados e integrados capacitam cientistas de dados e analistas de negócios a derivar insights significativos, criar relatórios abrangentes e construir dashboards interativos que visualizam desempenho, identificam tendências e apoiam a tomada de decisões estratégicas.
+     
+# Key Metrics Across Software Development Phases (Métricas Chave Através das Fases do Desenvolvimento de Software)
+
+This document outlines important metrics that can be tracked across different stages of the software development and delivery lifecycle, providing insights into efficiency, quality, and user satisfaction.
+
+---
+
+## English Version
+
+### Metrics by Development Phase
+
+Measuring performance at various stages is crucial for continuous improvement in software engineering. These metrics help teams understand progress, identify bottlenecks, and evaluate the impact of their work.
+
+#### 1. Requirements
+
+This phase focuses on defining what needs to be built. Metrics here typically reflect the output of the planning and ideation stages.
+
+* **Number of new products and features.**
+    * **Explanation:** This metric quantifies the volume of innovation and new value being planned. It indicates the pipeline's capacity to conceptualize and commit to new developments, reflecting strategic output and growth potential.
+
+#### 2. Design, Develop, and Test
+
+This combined phase covers the core activities of building the software and ensuring its quality before release.
+
+* **Time spent in development of the new products.**
+    * **Explanation:** This metric measures the efficiency of the development process from coding to initial internal testing. It helps in understanding resource allocation, predicting future timelines, and identifying areas for process optimization to accelerate delivery.
+* **Pass rate of the DevOps tests.**
+    * **Explanation:** This metric indicates the quality and stability of the code as it moves through automated testing pipelines. A high pass rate suggests effective development practices and robust testing, while a low rate signals potential issues that need addressing before deployment.
+
+#### 3. Deploy, Review, Launch
+
+This phase focuses on the delivery of the product to users and its subsequent performance and user reception.
+
+* **User satisfaction rates.**
+    * **Explanation:** This metric is crucial for understanding how well the product meets user needs and expectations after launch. It can be gathered through surveys, feedback mechanisms, or qualitative analysis, directly reflecting the product's market acceptance and value delivered.
+* **Amount of the time the product is unavailable to the users.**
+    * **Explanation:** This metric, commonly known as downtime or unavailability, measures the reliability and stability of the deployed product. Minimizing this time is a key operational goal, ensuring continuous service to users and reflecting the robustness of the deployment and infrastructure.
+
+---
+
+## Versão em Português
+
+# Métricas Chave Através das Fases do Desenvolvimento de Software
+
+Este documento descreve métricas importantes que podem ser rastreadas em diferentes etapas do ciclo de vida de desenvolvimento e entrega de software, fornecendo insights sobre eficiência, qualidade e satisfação do usuário.
+
+---
+
+## Versão em Português
+
+### Métricas por Fase de Desenvolvimento
+
+Medir o desempenho em várias etapas é crucial para a melhoria contínua na engenharia de software. Essas métricas ajudam as equipes a entender o progresso, identificar gargalos e avaliar o impacto de seu trabalho.
+
+#### 1. Requisitos
+
+Esta fase foca na definição do que precisa ser construído. As métricas aqui tipicamente refletem a saída das etapas de planejamento e ideação.
+
+* **Número de novos produtos e funcionalidades.**
+    * **Explicação:** Esta métrica quantifica o volume de inovação e o novo valor sendo planejado. Ela indica a capacidade do pipeline de conceituar e se comprometer com novos desenvolvimentos, refletindo a produção estratégica e o potencial de crescimento.
+
+#### 2. Design, Desenvolver e Testar
+
+Esta fase combinada abrange as atividades centrais de construção do software e garantia de sua qualidade antes do lançamento.
+
+* **Tempo gasto no desenvolvimento dos novos produtos.**
+    * **Explicação:** Esta métrica mede a eficiência do processo de desenvolvimento desde a codificação até os testes internos iniciais. Ajuda a entender a alocação de recursos, prever prazos futuros e identificar áreas para otimização de processos para acelerar a entrega.
+* **Taxa de aprovação dos testes DevOps.**
+    * **Explicação:** Esta métrica indica a qualidade e a estabilidade do código à medida que ele avança pelos pipelines de teste automatizados. Uma alta taxa de aprovação sugere práticas de desenvolvimento eficazes e testes robustos, enquanto uma taxa baixa sinaliza potenciais problemas que precisam ser resolvidos antes da implantação.
+
+#### 3. Implantar, Revisar, Lançar
+
+Esta fase foca na entrega do produto aos usuários e sua subsequente performance e recepção pelos usuários.
+
+* **Taxas de satisfação do usuário.**
+    * **Explicação:** Esta métrica é crucial para entender o quão bem o produto atende às necessidades e expectativas do usuário após o lançamento. Pode ser coletada através de pesquisas, mecanismos de feedback ou análise qualitativa, refletindo diretamente a aceitação do produto no mercado e o valor entregue.
+* **Quantidade de tempo que o produto está indisponível para os usuários.**
+    * **Explicação:** Esta métrica, comumente conhecida como tempo de inatividade ou indisponibilidade (downtime), mede a confiabilidade e a estabilidade do produto implantado. Minimizar esse tempo é um objetivo operacional chave, garantindo a continuidade do serviço aos usuários e refletindo a robustez da implantação e da infraestrutura.

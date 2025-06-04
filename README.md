@@ -873,3 +873,65 @@ Esses fatores são geralmente considerados como tendo pouco ou nenhum impacto di
     * **Explicação:** A localização geográfica dos usuários é geralmente mais relevante para estratégias de implantação (ex: redes de entrega de conteúdo, centros de dados regionais para latência), conformidade ou soberania de dados, em vez de determinar a arquitetura fundamental do software em si.
 * **O setor da organização:**
     * **Explicação:** O setor industrial (ex: finanças, saúde, e-commerce) em que uma organização opera não dita diretamente a arquitetura central do software. Embora requisitos de conformidade ou segurança específicos do setor possam influenciar certas decisões arquiteturais, o setor em si não é um impulsionador arquitetural primário. A *natureza* dos problemas do software dentro desse setor é o que importa.
+ 
+
+
+# Main Components of IT Infrastructure (Principais Componentes da Infraestrutura de TI)
+
+This document outlines the fundamental building blocks of IT infrastructure, emphasizing its composite nature and customization.
+
+---
+
+## English Version
+
+IT infrastructure forms the backbone of any organization's technological operations, enabling various functions and services.
+
+* **Combination of various components.**
+    * **Explanation:** IT infrastructure is not a single entity but a complex ecosystem formed by the integration of diverse elements that work together to support business processes.
+* **Customized for organizations specific needs.**
+    * **Explanation:** A robust IT infrastructure is designed and tailored to meet the unique requirements, goals, and scale of a particular organization, ensuring optimal performance and efficiency for its specific operations.
+
+### Core Components:
+
+The image highlights three primary categories that constitute the main components of IT infrastructure:
+
+1.  **Software** (`</>` icon)
+    * **Explanation:** This includes all the applications, operating systems, databases, and other programs that run on the hardware and manage the network. It's the set of instructions that tells the hardware what to do.
+
+2.  **Network** (`🌐` icon)
+    * **Explanation:** This refers to the interconnected system that allows different components (hardware and software) to communicate with each other and with the outside world. It includes routers, switches, cables, wireless access points, and network protocols.
+
+3.  **Hardware** (`[:::]` server rack icon)
+    * **Explanation:** This encompasses all the physical components of the IT system. This includes servers, computers, storage devices (e.g., hard drives, SSDs), and other physical equipment necessary for data processing and storage.
+
+---
+
+## Versão em Português
+
+# Principais Componentes da Infraestrutura de TI
+
+Este documento descreve os blocos de construção fundamentais da infraestrutura de TI, enfatizando sua natureza composta e personalização.
+
+---
+
+## Versão em Português
+
+A infraestrutura de TI forma a espinha dorsal das operações tecnológicas de qualquer organização, habilitando diversas funções e serviços.
+
+* **Combinação de vários componentes.**
+    * **Explicação:** A infraestrutura de TI não é uma entidade única, mas um ecossistema complexo formado pela integração de diversos elementos que trabalham juntos para suportar os processos de negócio.
+* **Personalizada para as necessidades específicas das organizações.**
+    * **Explicação:** Uma infraestrutura de TI robusta é projetada e adaptada para atender aos requisitos, objetivos e escala exclusivos de uma organização específica, garantindo desempenho e eficiência ótimos para suas operações particulares.
+
+### Componentes Essenciais:
+
+A imagem destaca três categorias primárias que constituem os principais componentes da infraestrutura de TI:
+
+1.  **Software** (`</>` ícone)
+    * **Explicação:** Isso inclui todas as aplicações, sistemas operacionais, bancos de dados e outros programas que rodam no hardware e gerenciam a rede. É o conjunto de instruções que diz ao hardware o que fazer.
+
+2.  **Rede** (`🌐` ícone)
+    * **Explicação:** Refere-se ao sistema interconectado que permite que diferentes componentes (hardware e software) se comuniquem entre si e com o mundo exterior. Inclui roteadores, switches, cabos, pontos de acesso sem fio e protocolos de rede.
+
+3.  **Hardware** (`[:::]` ícone de rack de servidor)
+    * **Explicação:** Abrange todos os componentes físicos do sistema de TI. Isso inclui servidores, computadores, dispositivos de armazenamento (ex: discos rígidos, SSDs) e outros equipamentos físicos necessários para o processamento e armazenamento de dados.

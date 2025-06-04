@@ -1000,3 +1000,77 @@ O processo de atualização ou criação de novas funcionalidades em um produto 
         * **Explicação:** Após testes rigorosos e integração bem-sucedida, o código validado é implantado no ambiente de produção usando uma plataforma de implantação especializada. Isso torna a nova versão do software acessível aos usuários finais, entregando o valor ou as melhorias pretendidas.
 
 Este fluxo sistemático garante que as mudanças sejam introduzidas de maneira controlada, testada e eficiente, minimizando riscos e acelerando a entrega de valor ao cliente.
+
+# Key Activities Across Hardware, Network, and Software in IT Operations
+
+This document outlines essential activities and considerations across the hardware, network, and software domains within an organization's IT operations, crucial for delivering and maintaining digital products.
+
+---
+
+## English Version
+
+Effective IT operations require a coordinated effort across physical infrastructure, connectivity, and application logic.
+
+### Hardware
+
+This category pertains to the physical computing resources that underpin digital products and services.
+
+* **Running the online products on servers with significant computing power.**
+    * **Explanation:** This involves ensuring that the underlying physical or virtual servers possess sufficient processing capabilities (CPU, RAM) to handle the demands of online applications, ensuring performance and responsiveness for users. This is foundational for any deployed software.
+
+### Network
+
+The network encompasses all aspects of connectivity, enabling communication within the system and with external users.
+
+* **Allow customers to connect to your systems.**
+    * **Explanation:** This covers setting up and maintaining network infrastructure (e.g., internet gateways, firewalls, load balancers) that provides secure and reliable access points for end-users to interact with the deployed applications.
+* **Making sure the product and infrastructure components are communicating with each other when necessary.**
+    * **Explanation:** This involves configuring internal network routes, protocols, and security measures to ensure that different parts of an application (e.g., front-end, back-end, databases, microservices) and underlying infrastructure elements can seamlessly exchange data and operate as a cohesive system.
+
+### Software
+
+This domain focuses on the applications themselves and the methodologies used in their creation and management.
+
+* **Developing APIs to exchange data.**
+    * **Explanation:** This refers to the creation of Application Programming Interfaces (APIs) which define how different software components or systems interact and share information. Well-designed APIs are critical for modularity, integration, and interoperability within complex software ecosystems.
+* **Employing DevOps best practices.**
+    * **Explanation:** This signifies the adoption of principles and practices from the DevOps culture, such as continuous integration, continuous delivery (CI/CD), automation, monitoring, and collaboration, to streamline the software development lifecycle and improve operational efficiency and reliability.
+
+---
+
+## Versão em Português
+
+# Atividades Chave em Hardware, Rede e Software em Operações de TI
+
+Este documento descreve atividades e considerações essenciais nos domínios de hardware, rede e software dentro das operações de TI de uma organização, cruciais para entregar e manter produtos digitais.
+
+---
+
+## Versão em Português
+
+Operações de TI eficazes exigem um esforço coordenado entre infraestrutura física, conectividade e lógica de aplicação.
+
+### Hardware
+
+Esta categoria se refere aos recursos de computação física que sustentam produtos e serviços digitais.
+
+* **Executar os produtos online em servidores com poder de computação significativo.**
+    * **Explicação:** Isso envolve garantir que os servidores físicos ou virtuais subjacentes possuam capacidades de processamento suficientes (CPU, RAM) para lidar com as demandas das aplicações online, assegurando desempenho e responsividade para os usuários. Isso é fundamental para qualquer software implantado.
+
+### Rede
+
+A rede abrange todos os aspectos de conectividade, permitindo a comunicação dentro do sistema e com usuários externos.
+
+* **Permitir que os clientes se conectem aos seus sistemas.**
+    * **Explicação:** Isso inclui configurar e manter a infraestrutura de rede (ex: gateways de internet, firewalls, balanceadores de carga) que fornece pontos de acesso seguros e confiáveis para que os usuários finais interajam com as aplicações implantadas.
+* **Garantir que o produto e os componentes da infraestrutura estejam se comunicando entre si quando necessário.**
+    * **Explicação:** Isso envolve configurar rotas de rede internas, protocolos e medidas de segurança para garantir que diferentes partes de uma aplicação (ex: front-end, back-end, bancos de dados, microsserviços) e elementos da infraestrutura subjacente possam trocar dados de forma transparente e operar como um sistema coeso.
+
+### Software
+
+Este domínio foca nas próprias aplicações e nas metodologias usadas em sua criação e gerenciamento.
+
+* **Desenvolver APIs para troca de dados.**
+    * **Explicação:** Isso se refere à criação de Interfaces de Programação de Aplicações (APIs) que definem como diferentes componentes de software ou sistemas interagem e compartilham informações. APIs bem projetadas são críticas para modularidade, integração e interoperabilidade dentro de ecossistemas de software complexos.
+* **Empregar as melhores práticas de DevOps.**
+    * **Explicação:** Isso significa a adoção de princípios e práticas da cultura DevOps, como integração contínua, entrega contínua (CI/CD), automação, monitoramento e colaboração, para otimizar o ciclo de vida do desenvolvimento de software e melhorar a eficiência operacional e a confiabilidade.

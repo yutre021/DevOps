@@ -935,3 +935,68 @@ A imagem destaca três categorias primárias que constituem os principais compon
 
 3.  **Hardware** (`[:::]` ícone de rack de servidor)
     * **Explicação:** Abrange todos os componentes físicos do sistema de TI. Isso inclui servidores, computadores, dispositivos de armazenamento (ex: discos rígidos, SSDs) e outros equipamentos físicos necessários para o processamento e armazenamento de dados.
+  
+
+# From Development to Deployment: A Platform Engineering Flow
+
+This document describes a typical flow for software changes, illustrating how a developer's modifications move through various stages, including version control, automated processes, and ultimately reach the customer via a deployment platform.
+
+---
+
+## English Version
+
+### The Software Delivery Pipeline
+
+The process of updating or creating new features in a software product generally follows a structured pipeline designed for efficiency, security, and continuous delivery. This pipeline connects the initial developer activity to the final user experience.
+
+1.  **Developer Platform: Initiating Change**
+    * **Developer changes part of the codebase.**
+        * **Explanation:** This is where the development process begins. A developer uses their platform (like an Integrated Development Environment - IDE, or a local coding environment) to write, modify, or extend the existing source code of a software product. These changes might include new features, bug fixes, or performance enhancements.
+
+2.  **Codebase & Version Control: Securing and Integrating Code**
+    * **Code is merged to the rest of the codebase securely.**
+        * **Explanation:** Once the developer's changes are complete and locally validated, they are submitted to a version control system (such as Git). This system facilitates the merging of the new code with the main codebase, ensuring proper tracking, collaboration, and conflict resolution, thereby maintaining the integrity and history of the code.
+
+3.  **DevOps: Testing and Integration**
+    * **Code is tested and integrated into the online product.**
+        * **Explanation:** This stage leverages automated processes, often associated with DevOps practices, to ensure quality assurance and seamless integration. The merged code undergoes various automated tests (e.g., unit tests, integration tests, system tests) to verify functionality, performance, and security. Successful tests lead to the code being integrated into a build, potentially deployed to staging environments for further validation.
+
+4.  **Deployment Platform: Serving the Customer**
+    * **New version of the product starts serving the customer.**
+        * **Explanation:** After thorough testing and successful integration, the validated code is deployed to the production environment using a specialized deployment platform. This makes the new version of the software accessible to end-users, delivering the intended value or improvements.
+
+This systematic flow ensures that changes are introduced in a controlled, tested, and efficient manner, minimizing risks and accelerating the delivery of value to the customer.
+
+---
+
+## Versão em Português
+
+# Do Desenvolvimento à Implantação: Um Fluxo de Engenharia de Plataforma
+
+Este documento descreve um fluxo típico para mudanças de software, ilustrando como as modificações de um desenvolvedor se movem através de várias etapas, incluindo controle de versão, processos automatizados e, finalmente, chegam ao cliente por meio de uma plataforma de implantação.
+
+---
+
+## Versão em Português
+
+### O Pipeline de Entrega de Software
+
+O processo de atualização ou criação de novas funcionalidades em um produto de software geralmente segue um pipeline estruturado, projetado para eficiência, segurança e entrega contínua. Este pipeline conecta a atividade inicial do desenvolvedor à experiência final do usuário.
+
+1.  **Plataforma do Desenvolvedor: Iniciando a Mudança**
+    * **Desenvolvedor muda parte da base de código.**
+        * **Explicação:** É aqui que o processo de desenvolvimento começa. Um desenvolvedor utiliza sua plataforma (como um Ambiente de Desenvolvimento Integrado - IDE, ou um ambiente de codificação local) para escrever, modificar ou estender o código-fonte existente de um produto de software. Essas mudanças podem incluir novas funcionalidades, correção de bugs ou melhorias de desempenho.
+
+2.  **Base de Código e Controle de Versão: Codificação Segura e Integração**
+    * **Código é unido ao restante da base de código com segurança.**
+        * **Explicação:** Uma vez que as mudanças do desenvolvedor estão completas e validadas localmente, elas são submetidas a um sistema de controle de versão (como o Git). Este sistema facilita a fusão do novo código com a base de código principal, garantindo rastreamento adequado, colaboração e resolução de conflitos, mantendo a integridade e o histórico do código.
+
+3.  **DevOps: Teste e Integração**
+    * **Código é testado e integrado ao produto online.**
+        * **Explicação:** Esta etapa aproveita processos automatizados, frequentemente associados às práticas DevOps, para garantir a qualidade e a integração contínua. O código mesclado passa por vários testes automatizados (ex: testes de unidade, testes de integração, testes de sistema) para verificar funcionalidade, desempenho e segurança. Testes bem-sucedidos levam à integração do código em uma build, potencialmente implantada em ambientes de staging para validação adicional.
+
+4.  **Plataforma de Implantação: Atendendo o Cliente**
+    * **Nova versão do produto começa a servir o cliente.**
+        * **Explicação:** Após testes rigorosos e integração bem-sucedida, o código validado é implantado no ambiente de produção usando uma plataforma de implantação especializada. Isso torna a nova versão do software acessível aos usuários finais, entregando o valor ou as melhorias pretendidas.
+
+Este fluxo sistemático garante que as mudanças sejam introduzidas de maneira controlada, testada e eficiente, minimizando riscos e acelerando a entrega de valor ao cliente.

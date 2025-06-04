@@ -2015,3 +2015,81 @@ Este documento esclarece várias afirmações relacionadas à qualidade de dados
         * **Completude** refere-se a se todos os dados necessários estão presentes (ou seja, sem valores ausentes).
         * **Precisão** refere-se a se os valores dos dados estão corretos e refletem a realidade de forma verdadeira.
         Uma entrada de dados pode estar completa (todos os campos preenchidos), mas imprecisa (preenchida com informações erradas), ou pode estar precisa (informações corretas), mas incompleta (faltando campos opcionais). Elas são dimensões relacionadas, mas distintas.
+
+# Data Quality Elements: Ensuring Trustworthy Information (Elementos da Qualidade de Dados: Garantindo Informações Confiáveis)
+
+Data forms the backbone of modern organizations, and its quality directly impacts analytics, decision-making, and operational efficiency. Data possesses many aspects and elements that are important to manage. When these elements are properly secured, the data is considered high quality, making it crucial to identify and track them. It's important to note that not all data requires the same level of quality; for critical data, however, it makes sense to secure all of its quality elements.
+
+---
+
+## English Version
+
+### Core Elements of Data Quality
+
+Understanding and addressing the following elements are essential for establishing and maintaining high data quality across an organization's information assets.
+
+#### 1. Accuracy or Timeliness
+
+These two elements are vital for ensuring that data is both correct and current, making it reliable for immediate use.
+
+* **Correctness of data in every detail.**
+    * **Explanation:** Data accuracy means that the information precisely reflects the real-world facts or events it represents. This includes precision in values, correct spelling, and absence of factual errors. Highly accurate data is crucial for preventing misinformed decisions.
+* **How recent and up to date the information is.**
+    * **Explanation:** Data timeliness refers to the currency of the information. Data needs to be available and relevant at the moment it's accessed or used. Outdated information, even if factually correct at a past point, can lead to incorrect conclusions in real-time scenarios.
+
+#### 2. Consistency or Relevance
+
+These elements address the coherence and utility of data, ensuring it is coherent across systems and applicable to its purpose.
+
+* **The reliability of the information; data should not contradict with other data.**
+    * **Explanation:** Data consistency implies that the same piece of information does not vary across different data sources or different instances within the same system. Inconsistencies undermine trust and create confusion in reports and analyses.
+* **Holding and storing only the necessary information.**
+    * **Explanation:** Data relevance focuses on whether the data is truly pertinent and valuable for the specific business context or analytical task. Storing irrelevant data can lead to inefficiencies, increased storage costs, and clutter, making it harder to find and utilize meaningful information.
+
+#### 3. Completeness
+
+This element ensures that no critical parts of the data are missing, providing a full picture.
+
+* **Ensuring comprehensiveness of data to prove no part of the data was lost.**
+    * **Explanation:** Data completeness refers to the degree to which all required data is present. Missing values or records can lead to biased analyses, incomplete reports, or failures in processes that rely on the full dataset. Ensuring completeness means that all expected data points for a given record or dataset are populated.
+
+---
+
+## Versão em Português
+
+# Elementos da Qualidade de Dados: Garantindo Informações Confiáveis
+
+Os dados formam a espinha dorsal das organizações modernas, e sua qualidade impacta diretamente as análises, a tomada de decisões e a eficiência operacional. Os dados possuem muitos aspectos e elementos que são importantes de serem gerenciados. Quando esses elementos são devidamente garantidos, os dados são considerados de alta qualidade, tornando crucial identificá-los e rastreá-los. É importante notar que nem todos os dados exigem o mesmo nível de qualidade; para dados críticos, no entanto, faz sentido garantir todos os seus elementos de qualidade.
+
+---
+
+## Versão em Português
+
+### Elementos Essenciais da Qualidade de Dados
+
+Compreender e abordar os seguintes elementos é fundamental para estabelecer e manter alta qualidade de dados nos ativos de informação de uma organização.
+
+#### 1. Precisão ou Temporalidade
+
+Esses dois elementos são vitais para garantir que os dados estejam corretos e atualizados, tornando-os confiáveis para uso imediato.
+
+* **Correta dos dados em cada detalhe.**
+    * **Explicação:** A precisão dos dados significa que a informação reflete exatamente os fatos ou eventos do mundo real que ela pretende representar. Isso inclui precisão nos valores, ortografia correta e ausência de erros factuais. Dados altamente precisos são cruciais para evitar decisões mal informadas.
+* **Quão recente e atualizada a informação é.**
+    * **Explicação:** A temporalidade dos dados refere-se à atualidade da informação. Os dados precisam estar disponíveis e relevantes no momento em que são acessados ou usados. Informações desatualizadas, mesmo que factualmente corretas em um ponto passado, podem levar a conclusões incorretas em cenários em tempo real.
+
+#### 2. Consistência ou Relevância
+
+Esses elementos abordam a coerência e a utilidade dos dados, garantindo que sejam coerentes entre os sistemas e aplicáveis ao seu propósito.
+
+* **A confiabilidade da informação; dados não devem contradizer outros dados.**
+    * **Explicação:** A consistência dos dados implica que a mesma informação não varia em diferentes fontes de dados ou diferentes instâncias dentro do mesmo sistema. Inconsistências minam a confiança e criam confusão em relatórios e análises.
+* **Reter e armazenar apenas as informações necessárias.**
+    * **Explicação:** A relevância dos dados foca em se os dados são realmente pertinentes e valiosos para o contexto de negócio ou tarefa analítica específica. Armazenar dados irrelevantes pode levar a ineficiências, aumento dos custos de armazenamento e desorganização, tornando mais difícil encontrar e utilizar informações significativas.
+
+#### 3. Completude
+
+Este elemento garante que nenhuma parte crítica dos dados esteja faltando, fornecendo uma imagem completa.
+
+* **Garantir a abrangência dos dados para provar que nenhuma parte dos dados foi perdida.**
+    * **Explicação:** A completude dos dados refere-se ao grau em que todos os dados necessários estão presentes. Valores ou registros ausentes podem levar a análises tendenciosas, relatórios incompletos ou falhas em processos que dependem do conjunto de dados completo. Garantir a completude significa que todos os pontos de dados esperados para um determinado registro ou conjunto de dados estão preenchidos.

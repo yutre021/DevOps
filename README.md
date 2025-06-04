@@ -1200,3 +1200,63 @@ Um pipeline CI/CD (Integração Contínua/Entrega Contínua ou Implantação Con
     * **Explicação:** A etapa final envolve a implantação automática do software compilado e testado com sucesso no ambiente de produção, tornando-o disponível para os usuários finais. Esta etapa é tipicamente altamente automatizada, garantindo lançamentos consistentes e rápidos. Dependendo da configuração, isso pode ser Entrega Contínua (gatilho manual para produção) ou Implantação Contínua (implantação automática para produção).
 
 Todo este pipeline visa reduzir a intervenção manual, minimizar erros e acelerar a entrega de software de alta qualidade.
+
+
+
+# CI/CD Pipelines: Understanding Key Concepts (Pipelines CI/CD: Compreendendo Conceitos Chave)
+
+This document clarifies various statements related to CI/CD pipelines, automation, and their application in modern software development and data engineering.
+
+---
+
+## English Version
+
+### True Statements:
+
+1.  **CI/CD pipelines use automation to increase the pace of software development.**
+    * **Explanation:** This is **True**. The primary goal of CI/CD (Continuous Integration/Continuous Delivery or Deployment) is to automate the various stages of the software delivery lifecycle – from code integration and testing to deployment. This automation significantly reduces manual effort, speeds up the release process, and allows for more frequent delivery of value to users.
+
+2.  **Building the code is a part of CI/CD pipelines, and it means turning the code into machine executable files.**
+    * **Explanation:** This is **True**. The "Build" phase is a fundamental component of a CI/CD pipeline. During this phase, the source code written by developers is compiled, transformed, and packaged into deployable artifacts, such as executable files, Docker images, or deployable archives, ready to run on target environments.
+
+3.  **Data Engineers can use CI/CD pipelines to change the source code for their data tables.**
+    * **Explanation:** This is **True**. CI/CD principles are increasingly applied to "DataOps" and "Database DevOps." Data engineers can use CI/CD pipelines to manage schema changes, deploy stored procedures, update ETL/ELT pipeline code, and automate the testing and deployment of database-related code, treating database changes like any other application code change.
+
+### False Statements:
+
+1.  **Continuous Delivery happens in the Design phase of the DevOps cycle.**
+    * **Explanation:** This is **False**. Continuous Delivery (CD) is the practice of ensuring that software can be released to production at any time, typically after the development, testing, and integration phases are complete. The "Design" phase occurs much earlier in the DevOps cycle, focusing on planning and architecture, long before the software is ready for delivery. CD occurs closer to the deployment end of the pipeline.
+
+2.  **Version control software works after the CI/CD pipelines.**
+    * **Explanation:** This is **False**. Version control software (e.g., Git) is where the CI/CD pipeline *starts*. Developers commit their code changes to a version control system, which then *triggers* the CI/CD pipeline to begin its automated build, test, and deployment processes. It's the foundation upon which the pipeline operates, not something that comes after it.
+
+---
+
+## Versão em Português
+
+# Pipelines CI/CD: Compreendendo Conceitos Chave
+
+Este documento esclarece várias afirmações relacionadas a pipelines CI/CD, automação e sua aplicação no desenvolvimento de software moderno e engenharia de dados.
+
+---
+
+## Versão em Português
+
+### Afirmações Verdadeiras:
+
+1.  **Pipelines CI/CD usam automação para aumentar o ritmo do desenvolvimento de software.**
+    * **Explicação:** Esta afirmação é **Verdadeira**. O objetivo principal do CI/CD (Integração Contínua/Entrega Contínua ou Implantação Contínua) é automatizar as várias etapas do ciclo de vida da entrega de software – desde a integração do código e testes até a implantação. Essa automação reduz significativamente o esforço manual, acelera o processo de lançamento e permite uma entrega de valor mais frequente aos usuários.
+
+2.  **Construir o código faz parte dos pipelines CI/CD, e significa transformar o código em arquivos executáveis por máquina.**
+    * **Explicação:** Esta afirmação é **Verdadeira**. A fase de "Build" (ou construção/compilação) é um componente fundamental de um pipeline CI/CD. Durante essa fase, o código-fonte escrito pelos desenvolvedores é compilado, transformado e empacotado em artefatos implantáveis, como arquivos executáveis, imagens Docker ou arquivos implantáveis, prontos para serem executados nos ambientes de destino.
+
+3.  **Engenheiros de Dados podem usar pipelines CI/CD para alterar o código-fonte de suas tabelas de dados.**
+    * **Explicação:** Esta afirmação é **Verdadeira**. Os princípios do CI/CD são cada vez mais aplicados a "DataOps" e "Database DevOps". Engenheiros de dados podem usar pipelines CI/CD para gerenciar alterações de esquema, implantar procedimentos armazenados, atualizar o código de pipelines ETL/ELT e automatizar o teste e a implantação de código relacionado a bancos de dados, tratando as alterações de banco de dados como qualquer outra alteração de código de aplicação.
+
+### Afirmações Falsas:
+
+1.  **Entrega Contínua acontece na fase de Design do ciclo DevOps.**
+    * **Explicação:** Esta afirmação é **Falsa**. A Entrega Contínua (CD) é a prática de garantir que o software possa ser lançado para produção a qualquer momento, tipicamente *após* as fases de desenvolvimento, teste e integração estarem completas. A fase de "Design" ocorre muito antes no ciclo DevOps, focando no planejamento e arquitetura, muito antes do software estar pronto para entrega. O CD ocorre mais próximo do final do pipeline de implantação.
+
+2.  **Software de controle de versão funciona após os pipelines CI/CD.**
+    * **Explicação:** Esta afirmação é **Falsa**. O software de controle de versão (ex: Git) é o *ponto de partida* de um pipeline CI/CD. Os desenvolvedores fazem commit de suas alterações de código em um sistema de controle de versão, o que então *dispara* o pipeline CI/CD para iniciar seus processos automatizados de construção, teste e implantação. É a base sobre a qual o pipeline opera, não algo que vem depois dele.

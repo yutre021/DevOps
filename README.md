@@ -1755,3 +1755,63 @@ Esta fase foca na entrega do produto aos usuários e sua subsequente performance
     * **Explicação:** Esta métrica é crucial para entender o quão bem o produto atende às necessidades e expectativas do usuário após o lançamento. Pode ser coletada através de pesquisas, mecanismos de feedback ou análise qualitativa, refletindo diretamente a aceitação do produto no mercado e o valor entregue.
 * **Quantidade de tempo que o produto está indisponível para os usuários.**
     * **Explicação:** Esta métrica, comumente conhecida como tempo de inatividade ou indisponibilidade (downtime), mede a confiabilidade e a estabilidade do produto implantado. Minimizar esse tempo é um objetivo operacional chave, garantindo a continuidade do serviço aos usuários e refletindo a robustez da implantação e da infraestrutura.
+ 
+
+
+# Setting Up a DevOps Metrics Dashboard (Configurando um Dashboard de Métricas DevOps)
+
+This document outlines the sequential steps involved in establishing a dashboard to track key metrics from DevOps systems, focusing on data ingestion, preparation, and visualization for analytical use.
+
+---
+
+## English Version
+
+### Steps for Building a DevOps Metrics Dashboard
+
+To effectively monitor and gain insights from your DevOps systems, a systematic approach to collecting, processing, and visualizing data is essential. Here are the steps in their logical order:
+
+1.  **Identify the data sources within the CI/CD pipelines that have relevant information for your metrics.**
+    * **Explanation:** The first crucial step is to pinpoint *where* the valuable data resides. This involves reviewing your existing CI/CD pipelines and other DevOps tools (e.g., version control, build servers, test automation platforms, deployment logs, monitoring systems) to find the specific data points that correspond to the metrics you've decided to track.
+
+2.  **Ingest the data in the CI/CD pipelines into a data pipeline.**
+    * **Explanation:** Once identified, the raw data from these various DevOps sources needs to be collected and fed into a dedicated data pipeline. This process, known as ingestion, can involve real-time streaming, batch processing, or event-driven collection mechanisms to bring the data into a centralized system for further processing.
+
+3.  **Move the data into an analytical database.**
+    * **Explanation:** After initial ingestion, the data is typically loaded into an analytical database (such as a data warehouse or data lake). This specialized database is optimized for complex analytical queries and reporting, providing a scalable and performant environment for storing and retrieving large volumes of structured or semi-structured data.
+
+4.  **Prepare the data for reporting.**
+    * **Explanation:** Raw data, even when in an analytical database, often requires further preparation to be useful for dashboards and reports. This step involves data cleaning (handling missing values, correcting errors), transformation (aggregating, calculating metrics, creating new features), and structuring the data into a format optimized for the specific visualizations and analyses intended for the dashboard.
+
+5.  **Communicate and visualize the results, track the pace of innovation and other metrics.**
+    * **Explanation:** The final step involves creating the dashboard itself. This means selecting appropriate visualization types (charts, graphs, tables), building the dashboard layout, and configuring it to display the prepared metrics clearly and effectively. The dashboard then serves as a central tool for communicating insights, tracking progress, monitoring performance, and enabling data-driven decision-making, including the pace of innovation and other key operational metrics.
+
+---
+
+## Versão em Português
+
+# Configurando um Dashboard de Métricas DevOps
+
+Este documento descreve os passos sequenciais envolvidos no estabelecimento de um dashboard para rastrear métricas chave de sistemas DevOps, focando na ingestão de dados, preparação e visualização para uso analítico.
+
+---
+
+## Versão em Português
+
+### Passos para Construir um Dashboard de Métricas DevOps
+
+Para monitorar e obter insights eficazes de seus sistemas DevOps, uma abordagem sistemática para coletar, processar e visualizar dados é essencial. Aqui estão os passos em sua ordem lógica:
+
+1.  **Identificar as fontes de dados dentro dos pipelines CI/CD que possuem informações relevantes para suas métricas.**
+    * **Explicação:** O primeiro passo crucial é identificar *onde* os dados valiosos residem. Isso envolve revisar seus pipelines CI/CD existentes e outras ferramentas DevOps (ex: sistemas de controle de versão, servidores de build, plataformas de automação de teste, logs de implantação, sistemas de monitoramento) para encontrar os pontos de dados específicos que correspondem às métricas que você decidiu rastrear.
+
+2.  **Ingerir os dados dos pipelines CI/CD para um pipeline de dados.**
+    * **Explicação:** Uma vez identificados, os dados brutos dessas várias fontes DevOps precisam ser coletados e alimentados em um pipeline de dados dedicado. Este processo, conhecido como ingestão, pode envolver streaming em tempo real, processamento em lote ou mecanismos de coleta orientados a eventos para trazer os dados para um sistema centralizado para processamento posterior.
+
+3.  **Mover os dados para um banco de dados analítico.**
+    * **Explicação:** Após a ingestão inicial, os dados são tipicamente carregados em um banco de dados analítico (como um data warehouse ou data lake). Este banco de dados especializado é otimizado para consultas analíticas complexas e relatórios, fornecendo um ambiente escalável e de alto desempenho para armazenar e recuperar grandes volumes de dados estruturados ou semi-estruturados.
+
+4.  **Preparar os dados para relatórios.**
+    * **Explicação:** Dados brutos, mesmo quando em um banco de dados analítico, frequentemente exigem preparação adicional para serem úteis para dashboards e relatórios. Esta etapa envolve limpeza de dados (tratamento de valores ausentes, correção de erros), transformação (agregação, cálculo de métricas, criação de novas funcionalidades) e estruturação dos dados em um formato otimizado para as visualizações e análises específicas destinadas ao dashboard.
+
+5.  **Comunicar e visualizar os resultados, acompanhar o ritmo da inovação e outras métricas.**
+    * **Explicação:** A etapa final envolve a criação do próprio dashboard. Isso significa selecionar tipos de visualização apropriados (gráficos, tabelas), construir o layout do dashboard e configurá-lo para exibir as métricas preparadas de forma clara e eficaz. O dashboard então serve como uma ferramenta central para comunicar insights, acompanhar o progresso, monitorar o desempenho e permitir a tomada de decisões baseada em dados, incluindo o ritmo da inovação e outras métricas operacionais chave.
